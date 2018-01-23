@@ -1,0 +1,40 @@
+body {
+  background-image: url("../assets/images/night.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: bottom;
+}
+
+.logo-night {
+  margin-top: 3vh;
+  margin-left: 20vh;
+  width: 10vh;
+  height: 10vh;
+  position: fixed;
+}
+
+.logo-pink {
+  margin-top: 25vh;
+  margin-left: 10vh;
+  width: 35vh;
+  height: 25vh;
+  position: fixed;
+}
+
+.btn {
+  margin-top: 65vh;
+  margin-left: 8.5vh;
+  color: white;
+}
+
+.btn-outline-primary {
+  border: white 1px solid;
+}
+
+.btn-outline-primary:hover {
+  color: #EA0988;
+  background-color: white;
+  border-color: #EA0988;
+  opacity: .8;
+  border: #EA0988 1px solid;
+}

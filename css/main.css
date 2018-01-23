@@ -1,0 +1,19 @@
+body {
+  background: linear-gradient(to bottom right, #530060, #E7098B);
+  background-repeat: no-repeat;
+   background-attachment: fixed;
+}
+
+.logo-white {
+  margin-top: 27vh;
+  margin-left: 18vh;
+  width: 20vh;
+  height: 20vh;
+  position: fixed;
+}
+
+.fa-spinner {
+  color: white;
+  margin-top: 55vh;
+  margin-left: 22vh;
+}
