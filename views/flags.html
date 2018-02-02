@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Flags</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+</head>
+<body class="background-color height">
+
+  <menu>
+    <div class="button-previous-view">
+      <a href="startview.html" type="button" class="btn">
+       <span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span>
+     </a>
+   </div>
+  </menu>
+
+  <header>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-xs-12">
+         <div class="text-center tittle-signup">
+           <h1><strong>Sign Up</strong></h1>
+           <h4>Join now for free ride credit</h4>
+         </div>
+         <hr>
+        </div>
+      </div>
+    </div>
+  </header>
+  <br>
+
+  <section class="signup-section">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-xs-11">
+          <div class="input-group">
+            <div class="input-group-btn">
+              <button type="button" class="btn btn-lg btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Country<span class="caret"></span></button>
+              <ul class="dropdown-menu background-color">
+                <li class="li-country"><img src="../assets/imgs/peru.png" alt="" class="img-li" data-number="051"> México</li>
+                <li class="li-country"><img src="../assets/imgs/colombia.png" alt="" class="img-li" data-number="057"> Perú</li>
+                <li class="li-country"><img src="../assets/imgs/argentina.png" alt="" class="img-li" data-number="054"> Chile</li>
+                <li class="li-country"><img src="../assets/imgs/mexico.png" alt="" class="img-li" data-number="052">Colombia</li>
+              </ul>
+            </div >
+            <input type="number" id="input-phone"class="form-control input-lg col-xs-6" aria-label="" placeholder="Phone">
+          </div>
+        </div>
+        <div class="form-group col-xs-12 text-center">
+         <h5>We'll send a text to verifity your phone</h5>
+        </div>
+        <div class="col-xs-11 text-center">
+          <button id="next-button" class="btn btn-block btn-lg" disabled>Next</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- JS & JQ -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <script src="../js/verify.js" type="text/javascript" charset="utf-8"></script>
+</body>
+</html>
